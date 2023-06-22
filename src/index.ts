@@ -7,8 +7,8 @@ function main() {
   let state: any = {};
 
   const formLoginElement = document.querySelector('form.login-form');
-  const formRegisterElement: HTMLFormElement =
-    document.querySelector('form.register-form')!;
+  // const formRegisterElement: HTMLFormElement =
+  //   document.querySelector('form.register-form')!;
   const logoutElement = document.querySelector('.logout');
   const buttonElement = document.querySelector('.show-button');
 
@@ -41,8 +41,8 @@ function main() {
     console.log(result);
   };
 
-  formLoginElement!.addEventListener('submit', login);
-  formRegisterElement!.addEventListener('submit', register);
+  // formLoginElement!.addEventListener('submit', login);
+  // formRegisterElement!.addEventListener('submit', register);
   buttonElement?.addEventListener('click', handleClick);
   logoutElement?.addEventListener('click', logout);
 }
