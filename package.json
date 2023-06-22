@@ -9,7 +9,8 @@
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "test": "jest --watchAll --coverage",
-    "test:prod": "jest --watchAll --coverage --watchAll=false --passWithNoTests"
+    "test:prod": "jest --watchAll --coverage --watchAll=false --passWithNoTests",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.5",
@@ -40,7 +41,8 @@
     "sass": "^1.62.1",
     "scss": "^0.2.4",
     "typescript": "^5.0.2",
-    "vite": "^4.3.2"
+    "vite": "^4.3.2",
+    "husky": "^8.0.0"
   },
   "prettier": {
     "singleQuote": true
